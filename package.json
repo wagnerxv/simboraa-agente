@@ -4,12 +4,13 @@
     "description": "Agente de Sincronizacao de Estoque",
     "main": "agente.js",
     "scripts": {
-      "start": "node agente.js"
+        "start": "node agente.js"
     },
     "dependencies": {
-      "axios": "^1.6.0",
-      "dotenv": "^16.3.0",
-      "fastify": "^4.24.0",
-      "mssql": "^10.0.0"
+        "axios": "^1.6.0",
+        "dotenv": "^16.3.0",
+        "fastify": "^4.24.0",
+        "mssql": "^10.0.0",
+        "pino-pretty": "^13.1.3"
     }
-  }
+}
